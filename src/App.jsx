@@ -12,6 +12,7 @@ import Partners from './components/Partners';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 import { materialsData } from './utils/materialsData';
 
@@ -65,6 +66,7 @@ function App() {
       </main>
 
       <Footer />
+      <ScrollToTop />
 
       {/* Shared Layout Transition For Detail View */}
       <AnimatePresence>

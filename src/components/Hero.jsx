@@ -39,7 +39,7 @@ const Hero = () => {
   const opacityText = useTransform(scrollY, [0, 300], [1, 0]);
 
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden bg-black">
       {/* Background Decorators */}
       <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-accent/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/3" />
       <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-gray-400/10 rounded-full blur-[100px] translate-y-1/3 -translate-x-1/4" />
@@ -48,7 +48,7 @@ const Hero = () => {
       <div className="absolute inset-0 pointer-events-none z-0"><img src="/images/hero_bg.png" className="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-overlay" />
         <div className="hidden md:block absolute top-[12%] md:top-[20%] left-[2%] md:left-[10%] lg:left-[20%]">
           <FloatingCard 
-            src="/images/blue_metal.png" 
+            src="/images/blue_metal.jpeg" 
             title="Blue Metal" 
             initialY={20} 
             delay={0}
@@ -57,7 +57,7 @@ const Hero = () => {
         </div>
         <div className="hidden md:block absolute bottom-[25%] md:bottom-[20%] right-[2%] md:right-[10%] lg:right-[20%]">
           <FloatingCard 
-            src="/images/river_sand.png" 
+            src="/images/river_sand.jpeg" 
             title="River Sand" 
             initialY={-20} 
             delay={1}

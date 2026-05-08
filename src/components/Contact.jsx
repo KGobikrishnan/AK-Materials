@@ -49,7 +49,7 @@ const Contact = () => {
                 </svg>
               </div>
               <h4 className="text-xl font-bold text-gray-900 mb-2">Head Office</h4>
-              <p className="text-gray-600">42 Industrial Avenue,<br />Tech Park, District 9,<br />City, State 600001</p>
+              <p className="text-gray-600">Indira colony,<br />C.Pudupatti,<br />Cumbum - 625556. Theni (Dt)</p>
             </div>
 
             <div className="glass p-8 rounded-3xl bg-white shadow-xl hover:-translate-y-2 transition-transform duration-300">
@@ -59,7 +59,16 @@ const Contact = () => {
                 </svg>
               </div>
               <h4 className="text-xl font-bold text-gray-900 mb-2">Call Us</h4>
-              <p className="text-gray-600">+91 98765 43210<br />+91 98765 01234</p>
+              <p className="text-gray-600">+91 93622 25555<br />+91 97881 11666</p>
+            </div>
+            <div className="glass p-8 rounded-3xl bg-white shadow-xl hover:-translate-y-2 transition-transform duration-300">
+              <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+              <h4 className="text-xl font-bold text-gray-900 mb-2">Email Us</h4>
+              <p className="text-gray-600">akcumbum@gmail.com</p>
             </div>
           </motion.div>
 

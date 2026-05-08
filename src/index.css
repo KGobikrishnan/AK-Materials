@@ -18,8 +18,11 @@ body {
   min-height: 100vh;
   font-family: var(--font-sans);
   overflow-x: hidden;
-  background-color: #f8fafc; /* Light subtle bg for contrast against cards */
+  background-color: #f8fafc;
   color: #0f1115;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Glassmorphism utilities */

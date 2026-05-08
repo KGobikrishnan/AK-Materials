@@ -10,9 +10,12 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-16">
           <div className="col-span-2 lg:col-span-1 space-y-6">
-            <h2 className="text-2xl font-bold text-white tracking-widest">
-              AK <span className="text-accent">MATERIALS</span>
-            </h2>
+            <div className="flex items-center gap-3">
+              <img src="/images/logo.png" alt="AK Logo" className="w-10 h-10 object-contain" />
+              <h2 className="text-2xl font-bold text-white tracking-widest uppercase">
+                Materials
+              </h2>
+            </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Premium construction materials for the visionaries building tomorrow's infrastructure. Quality delivered in bulk and retail.
             </p>
@@ -55,10 +58,10 @@ const Footer = () => {
           <div className="col-span-2 lg:col-span-1">
             <h4 className="text-white font-semibold mb-6">Contact Us</h4>
             <ul className="space-y-4 text-sm text-gray-400">
-              <li>+91 98765 43210</li>
-              <li>+91 98765 01234</li>
-              <li>info@akmaterials.com</li>
-              <li>42 Industrial Avenue, Tech Park</li>
+              <li>+91 93622 25555</li>
+              <li>+91 97881 11666</li>
+              <li>akcumbum@gmail.com</li>
+              <li>Indira colony, C.Pudupatti, Cumbum</li>
             </ul>
           </div>
         </div>
@@ -70,7 +73,9 @@ const Footer = () => {
           
           {/* Unique "Designed by Navi" Promotion */}
           <motion.a 
-            href="#"
+            href="https://www.navipromotions.in/"
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="group relative inline-flex items-center justify-center px-6 py-2 rounded-full bg-gradient-to-r from-gray-800 to-gray-900 border border-gray-700 hover:border-gray-500 transition-all duration-300 overflow-hidden"
